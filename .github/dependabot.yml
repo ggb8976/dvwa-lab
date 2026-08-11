@@ -5,3 +5,8 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+
+  - package-ecosystem: "composer"
+    directory: "/vulnerabilities/api"
+    schedule:
+      interval: "weekly"
